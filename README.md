@@ -1,2 +1,2 @@
 # Feira-do-tecnico
-Membros: GUilherme, Caio, Luciana, Hannah e Clara
+Membros: Guilherme, Caio, Luciana, Hannah e Clara
