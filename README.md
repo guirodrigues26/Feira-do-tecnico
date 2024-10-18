@@ -6,11 +6,11 @@ Ciências da Natureza, Ciências Humanas.
 ## Integrantes
 |         Nome         |      Github       |        Contato        |
 |----------------------|-------------------|-----------------------|                 
-| Caio Vieira          | [07-mvieira]      |                       |
-| Clara D´avila        | [Clara Elisa]     |                       |
-| Guilherme Rodrigues  | [guirodrigues26]  |                       |
-| Hannah Degrazia      | [HannahAryela]    |                       |
-| Luciana Flores       | [LuciFlores208]   |ecoviva.world@gmail.com|                         |          
+| Caio Vieira          | [07-mvieira](https://github.com/07-mvieira)      |                       |
+| Clara D´avila        | [Clara Elisa](https://github.com/Claraelisa05)     |                       |
+| Guilherme Rodrigues  | [guirodrigues26](https://github.com/guirodrigues26)  |                       |
+| Hannah Degrazia      | [HannahAryela](https://github.com/HannahAryela)    |                       |
+| Luciana Flores       | [LuciFlores208](https://github.com/LuciFlores208)   |ecoviva.world@gmail.com|                         |          
 ## 📝Descrição
 Nosso projeto consiste em um site, contendo um Globo Interativo, Quiz com perguntas relacionadas à sustentabilidade e uma mascote. O Globo Interativo contém informações sobre práticas sustentáveis adotadas por cada um dos continentes, com algumas especificações para certos países. Nossa Mascote é uma espécie de Inteligência Artificial, mas simplificada. Seu nome é Capy, ela ajudará o usuário a saciar suas dúvidas sobre sustentabilidade, conseguindo responder a algumas perguntas sobre o assunto.
 ## ❗❗❗Objetivos
