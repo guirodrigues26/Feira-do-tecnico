@@ -49,13 +49,16 @@ article{
 }
 
 hr{
-    border-color: #153b71;
+    border-color: #70defc;
+    border-style: solid;
+    border-width: 2px;
     margin: 0;
+    padding: 0;
 }
 
 
 .listaPerguntas{
-    background-image: linear-gradient(#498e49, #40854d);
+    background-image: linear-gradient(#3b803b, #2a6b36);
     background-color: #498e49;
     padding-top: 10px;
     padding-left: auto;
@@ -137,6 +140,7 @@ hr{
     background-color: #3d91c9;
     box-shadow: inset -5px -5px #31569a;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .fonte-pequena{
@@ -157,6 +161,72 @@ hr{
 .mensagem{
     font-weight: bold;
     margin-bottom: 15px;
+}
+
+#dicas{
+    background-image: linear-gradient(#449d44, #44914a);
+    background-color: #449d44;
+    justify-content: center;
+    width: calc(100%-30px);
+    max-width: 100%;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#dicas-secao__titulo{
+    align-items: center;
+}
+
+#dicas-secao__titulo h1{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dica__container{
+    margin: 0px;
+}
+
+.dica__titulo{
+    font-size: 21px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(#4db16d, #389265);
+    background-color: #4db16d;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid #348c60;
+}
+
+.dica__titulo:hover{
+    cursor: pointer;
+    background-image: linear-gradient(#3fa25e, #2b8056);
+    background-color: #4db16d;
+}
+
+.dica{
+    padding: 16px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    background-image: linear-gradient(#3ec662, #26a75a);
+    background-color: #3ec662;
+    color: #ffffff;
+    border: 2px solid #348c60;
+    border-top: 1px;
+    display: none;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.dica p, .dica ol li{
+    padding: 8px;
+}
+
+.dica ul li{
+    padding: 4px;
 }
 
 .resultado__formatacao{

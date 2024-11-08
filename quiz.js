@@ -1,6 +1,7 @@
 const perguntas = document.querySelectorAll('.listaPerguntas__item');
 const resultadoDiv = document.querySelector('.resultado');
 const article = document.querySelector('article')
+const dicaDiv = document.querySelectorAll('.dica__titulo')
 let perguntasRespondidas = 0
 let respostasCorretas = 0
 
@@ -51,5 +52,13 @@ perguntas.forEach(pergunta => {
                 article.style.filter = "blur(0)";
             });
         });
+    });
+});
+
+dicaDiv.forEach(dica => {
+    dica.addEventListener('click', () => {
+        dica.style.borderRadius = dica.style.borderRadius === '8px 8px 0px 0px' ? '8px 8px 8px 8px' : '8px 8px 0px 0px';
+        const dicaTexto = dica.nextElementSibling;
+        dicaTexto.style.display = dicaTexto.style.display === 'block' ? 'none' : 'block';
     });
 });
