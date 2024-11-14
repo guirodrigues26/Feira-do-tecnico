@@ -20,7 +20,7 @@ body{
 }
 
 article{
-    margin-top: 79px;
+    margin-top: 69px;
     padding-left: 10%;
     padding-right: 10%;
     justify-content: center;
@@ -33,7 +33,7 @@ article{
     width: calc(100%-30px);
     max-width: 100%;
     padding: 30px;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     margin: 0;
 }
