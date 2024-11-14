@@ -45,16 +45,16 @@ perguntas.forEach(pergunta => {
                 acertos.innerHTML = `(${respostasCorretas}/10)`;
                 article.style.filter = "blur(3px)";
             }
-
-            const fechar = document.getElementById('fechar')
-            fechar.addEventListener('click', () => {
-                resultadoDiv.style.display = 'none';
-                article.style.filter = "blur(0)";
-            });
         });
     });
 });
 
+const fechar = document.getElementById('fechar')
+    fechar.addEventListener('click', () => {
+        resultadoDiv.style.display = 'none';
+            article.style.filter = "blur(0)";
+    });
+            
 dicaDiv.forEach(dica => {
     dica.addEventListener('click', () => {
         dica.style.borderRadius = dica.style.borderRadius === '8px 8px 0px 0px' ? '8px 8px 8px 8px' : '8px 8px 0px 0px';
