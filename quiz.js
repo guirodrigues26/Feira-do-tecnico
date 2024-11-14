@@ -18,13 +18,13 @@ perguntas.forEach(pergunta => {
             
             const resposta = pergunta.querySelector('.resposta');
             resposta.style.display = 'block';
-            resposta.querySelector('.resposta__mensagem').textContent = botao.value === 'v' ? 'Resposta certa!' : 'Resposta errada!';
+            resposta.querySelector('.mensagem').textContent = botao.value === 'v' ? 'Resposta certa!' : 'Resposta errada!';
 
             const explicacao = resposta.querySelector('.resposta--explicacao');
             explicacao.style.display = 'block';
 
             const isCorreta = botao.value === 'v';
-            resposta.querySelector('.resposta__mensagem').textContent = isCorreta ? 'Resposta certa!' : 'Resposta errada!';
+            resposta.querySelector('.mensagem').textContent = isCorreta ? 'Resposta certa!' : 'Resposta errada!';
 
             if (isCorreta) {
                 botao.classList.add('botao--correto');
