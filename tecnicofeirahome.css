@@ -1,0 +1,82 @@
+*{
+    margin:0
+}
+
+body {
+    color: aliceblue;
+    background-color: rgb(58, 199, 58);
+    font-family: "Ubuntu", serif;
+
+    .underline,h3 {
+        text-decoration: underline;
+      }
+}
+
+ul { 
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+}
+ul a {color: aliceblue;
+    text-decoration: none;
+    margin: 150px;
+    font-size: 25px;
+}
+
+.conteiner {
+    padding: 0px 100px;
+}
+nav {           
+    background-color: #333; 
+    color: rgb(255, 255, 255);
+    padding: 14px;
+    
+}
+
+.Central img { width:calc(24%); 
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 0 auto;
+}
+.HEADER {
+    font-size: 20px;
+}
+
+.letra {
+font-size: 18px;
+}
+.Desgraça {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    
+}
+
+.Desgraça img {
+    width: 500px;
+    height: 300px;
+}
+
+footer {
+    font-size: 18px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+header {
+    text-align: center;
+}
+footer img {
+    width: 70px;
+    height: 65px;
+    border-radius: 50%;
+}
+footer p {
+    margin-top: 2px;
+}

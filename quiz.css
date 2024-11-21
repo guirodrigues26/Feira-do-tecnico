@@ -1,0 +1,357 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(font/Ubuntu-Regular.ttf);
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Ubuntu, sans-serif;
+    background-color: #000;
+    background-image: url(files/hubble-xdf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    font-size: 18px;
+    justify-content: center;
+}
+
+header{
+    background-image: linear-gradient(#299153, #278b53);
+    background-color: #278b53;
+    width: calc(100%);
+    overflow: hidden;
+    color: white;
+    padding: 8px;
+    padding-left: 110px;
+    padding-right: 100px;
+    position: fixed;
+    align-content: center;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition: top 0.5s;
+}
+
+header a{
+    text-decoration: none;
+}
+
+#home{
+    transform: translateY(2px);
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#links-internos{
+    display: flex;
+    transform: translateY(12px);
+    justify-content: right;
+    padding-right: 200px;
+}
+
+.links__item{
+    font-size: 24px;
+    display: flex;
+    color: inherit;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    transition: 0.1s;
+}
+
+.links__item:hover{
+    background-color: #0000001d;
+    border-radius: 6px;
+}
+
+article{
+    margin-top: 69px;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+}
+
+#quiz__intro{
+    background-image: linear-gradient(#175378, #134065);
+    background-color: #134065;
+    justify-content: center;
+    width: calc(100%-30px);
+    max-width: 100%;
+    padding: 30px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#quiz__intro p{
+    color: white;
+    text-align: justify;
+    margin: 7pt;
+}
+
+#quiz__intro strong{
+    font-size: 95%;
+}
+
+hr{
+    border-color: #70defc;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+.listaPerguntas{
+    background-image: linear-gradient(#3b803b, #2a6b36);
+    background-color: #498e49;
+    padding-top: 10px;
+    padding-left: auto;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.listaPerguntas__item{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.listaPerguntas__item::marker{
+    color: white;
+}
+
+.pergunta{
+    color: white;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0; /*senão a pergunta no <span> fica embaixo do número*/
+    text-align: justify;
+}
+
+.pergunta.formatacao.resposta{
+    display: block;
+}
+
+.botoes__formatacao{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 90px;
+    margin: 0;
+}
+
+.botao{
+    width: 170px;
+    max-width: 170px;
+    height: 85px;
+    background-color: #70defc;
+    box-shadow: inset -5px -5px #5c9fd3;
+    border: 3px #242546;
+    border-radius: 10px;
+    font-family: Ubuntu, sans-serif;
+    margin-left: 0;
+    margin-right: 2vw;
+    font-size: 18px;
+    flex: 1 0 150px;
+    transition: 0.05s;
+}
+
+.botao:disabled{
+    background-color: #91bac6;
+    box-shadow: inset -5px -5px #7690a4;
+    color: #000000de;
+}
+
+.botao--correto:disabled {
+    background-color: #00c030;
+    box-shadow: inset -5px -5px #1a7f30;
+    color: white;
+}
+
+.botao--incorreto:disabled {
+    background-color: #d22334;
+    box-shadow: inset -5px -5px #9b1e3b;
+    color: white;
+}
+
+.ativo{
+    transition: 0.2s;
+}
+
+.ativo:hover{
+    background-color: #3d91c9;
+    box-shadow: inset -5px -5px #31569a;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.fonte-pequena{
+    font-size: 14px;
+}
+
+.resposta{
+    display: flex;
+    align-self: center;
+    padding: 20px;
+    margin-top: 10px;
+    background-image: linear-gradient(#e5d0b7, #ddc7ad);
+    background-color: #e5d0b7;
+    border-radius: 7px;
+    box-shadow: inset -4px -4px #a48e72;
+    text-align: justify;
+}
+
+.mensagem{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#dicas{
+    background-image: linear-gradient(#449d44, #44914a);
+    background-color: #449d44;
+    justify-content: center;
+    width: calc(100%-30px);
+    max-width: 100%;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: justify;
+}
+
+#dicas-secao__titulo{
+    align-items: center;
+}
+
+#dicas-secao__titulo h1{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dica__container{
+    margin: 0px;
+}
+
+.dica__titulo{
+    font-size: 21px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(#4db16d, #389265);
+    background-color: #4db16d;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid #348c60;
+}
+
+.dica__titulo:hover{
+    cursor: pointer;
+    background-image: linear-gradient(#3fa25e, #2b8056);
+    background-color: #4db16d;
+}
+
+.dica{
+    padding: 16px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    background-image: linear-gradient(#2ebe54, #24a859);
+    background-color: #3ec662;
+    color: #ffffff;
+    border: 2px solid #348c60;
+    border-top: 1px;
+    display: none;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.dica p, .dica ol li{
+    padding: 8px;
+}
+
+.dica ul li{
+    padding: 4px;
+}
+
+.resultado__formatacao{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.resultado{
+    position: fixed;
+    width: 400px;
+    height: 180px;
+    margin: 0;
+    padding: 1px;
+    background-image: linear-gradient(#ade0d8, #85f2e9);
+    box-shadow: inset 0 -4px #73d0c8;
+    background-color: #b7e5dd;
+    top: 33.333333%;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+#acertos{
+    position: relative;
+    display: block;
+    font-size: 16.8px;
+    padding: 0;
+    padding-left: 17px;
+    top: 19px;
+    margin: 0;
+    width: 65px;
+    text-align: justify;
+    z-index: 11;
+    font-weight: bold;
+}
+
+#fechar{
+    position: relative;
+    display: block;
+    text-align: right;
+    left: 94.3%;
+    bottom: 10%;
+    font-size: 29px;
+    background-color: #00000000;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#fechar:hover{
+    cursor: pointer;
+}
+
+#resultado__p{
+    position: relative;
+    display: block;
+    font-size: 16.8px;
+    padding: 0;
+    margin: 0;
+    padding-left: 18px;
+    padding-right: 18px;
+    bottom: 4%;
+    text-align: justify;
+    z-index: 30;
+}
+
+strong{
+    font-size: 95%;
+}
