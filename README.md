@@ -12,12 +12,13 @@ Ciências da Natureza, Ciências Humanas.
 | Hannah Degrazia      | [HannahAryela](https://github.com/HannahAryela)    |                       |
 | Luciana Flores       | [LuciFlores208](https://github.com/LuciFlores208)   |ecoviva.world@gmail.com|                         |          
 ## 📝Descrição
-Nosso projeto consiste em um site, contendo um Globo Interativo, Quiz com perguntas relacionadas à sustentabilidade e uma mascote. O Globo Interativo contém informações sobre práticas sustentáveis adotadas por cada um dos continentes, com algumas especificações para certos países. Nossa Mascote é uma espécie de Inteligência Artificial, mas simplificada. Seu nome é Capy, ela ajudará o usuário a saciar suas dúvidas sobre sustentabilidade, conseguindo responder a algumas perguntas sobre o assunto.
+Nosso projeto consiste em um site, contendo um globo, quiz com perguntas relacionadas à sustentabilidade, uma mascote e ideias de práticas pedagógicas que incentivem os jovens à sustentabilidade. O Globo Interativo contém informações sobre práticas sustentáveis adotadas por cada um dos continentes, com algumas especificações para certos países. Nossa Mascote é uma espécie de Inteligência Artificial, mas simplificada. Seu nome é Capy, ela ajudará o usuário a saciar suas dúvidas sobre o tema, conseguindo responder a algumas perguntas sobre o assunto. As práticas pedagógicas são voltadas para o ambiente escolar, podendo serem realizadas nele. 
 ## ❗❗❗Objetivos
 - Promover a sustentabilidade
 - Incentivar as novas gerações a se preocuparem com o meio ambiente
 - Explicar de forma didática e simplificada o tema
 - Incentivar a conciência ambiental
+- Incentivar escolas a adotarem práticas pedagógicas sustentáveis.
 
 ## 🤔Justificativa
 A sustentabilidade é um dos assuntos mais relevantes em nossa atualidade. A preocupação com o planeta e nossa relação com ele se tornou crucial, uma vez que é necessária uma corrida contra o tempo na tentativa de tentar reverter ao máximo os inúmeros danos que nossa sociedade vem causando ao planeta a muitas gerações. É preciso se manter informado e compartilhar informações, pois a consciência é a chave para a mudança.
