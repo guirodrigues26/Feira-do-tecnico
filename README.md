@@ -35,9 +35,12 @@ A sustentabilidade é um dos assuntos mais relevantes em nossa atualidade. A pre
   conscientizar a população no geral sobre um estilo de vida mais sustentável, apenas nós mesmos somos capazes de reverter as nossas ações.
   Faça a diferença, contamos com você!
 
-  ## Protótipo
+  ## 🛠️ Protótipo
   ![image](https://github.com/user-attachments/assets/a97cdedc-5bcf-4540-ae77-9657687c980a)  ![image](https://github.com/user-attachments/assets/0d9834f3-70c2-4976-9fc4-63b572b934ce)
   ![image](https://github.com/user-attachments/assets/214e2e32-c7e5-4e7f-b72e-e2fee23b8677) ![image](https://github.com/user-attachments/assets/07bca3de-04ec-45c7-bf02-b1c69b0c228d)
+
+  ## 🙌 Projeto Final
+  
 
 
 
