@@ -1,7 +1,0 @@
-bash
-cd caminho/do/seu/repo
-bash
-git add nome-da-pasta
-bash
-git commit -m "Adicionando nova pasta"
-git push origin main
