@@ -24,7 +24,7 @@ Nosso projeto consiste em um site, contendo um globo, quiz com perguntas relacio
 A sustentabilidade é um dos assuntos mais relevantes em nossa atualidade. A preocupação com o planeta e nossa relação com ele se tornou crucial, uma vez que é necessária uma corrida contra o tempo na tentativa de tentar reverter ao máximo os inúmeros danos que nossa sociedade vem causando ao planeta a muitas gerações. É preciso se manter informado e compartilhar informações, pois a consciência é a chave para a mudança.
 ## Ferramentas Utilizadas
 - _**Linguagens**_: HTML, CSS e JavaScript.
-- _**Frameworks/Bibliotecas**_:
+- _**Frameworks/Bibliotecas**_: Three.js.
 
 ## 🎉 Conclusão
 O projeto **[EcoViva]** é um projeto de extrema relevância social, ele consegue englobar todos os públicos, mas em especial, resolvemos focar nas crianças,
