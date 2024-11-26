@@ -51,6 +51,7 @@ perguntas.forEach(pergunta => {
 
             if (isCorreta) {
                 botao.classList.add('botao--correto');
+                resposta.classList.add('resposta--correta');
                 respostasCorretas++
                 console.log("respostas corretas:",respostasCorretas)
             } else {
