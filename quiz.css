@@ -224,8 +224,8 @@ hr{
 }
 
 #dicas{
-    background-image: linear-gradient(#449d44, #44914a);
-    background-color: #449d44;
+    background-image: linear-gradient(#56a756, #57a85e);
+    background-color: #56a756;
     justify-content: center;
     width: calc(100%-30px);
     max-width: 100%;
