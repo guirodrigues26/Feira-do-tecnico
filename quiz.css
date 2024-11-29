@@ -207,9 +207,15 @@ hr{
     margin-top: 10px;
     background-image: linear-gradient(#e5d0b7, #ddc7ad);
     background-color: #e5d0b7;
-    border-radius: 7px;
     box-shadow: inset -4px -4px #a48e72;
+    border-radius: 7px;
     text-align: justify;
+}
+
+.resposta--correta{
+    background-image: linear-gradient(#b7e5b8, #adddbc);
+    background-color: #b7e5b8;
+    box-shadow: inset -4px -4px #72a488;
 }
 
 .mensagem{
