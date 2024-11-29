@@ -33,3 +33,20 @@ A sustentabilidade é um dos assuntos mais relevantes em nossa atualidade. A pre
   planeta simplesmente não vai suportar tantas pessoas, uma vez que, com o passar dos anos, a tendência é que a população aumente, precisamos urgentemente 
   conscientizar a população no geral sobre um estilo de vida mais sustentável, apenas nós mesmos somos capazes de reverter as nossas ações.
   Faça a diferença, contamos com você!
+
+  ##Protótipo
+Aqui estão algumas imagens do protótipo do nosso site:
+
+1. **Página Inicial:**  
+   ![Página Inicial](![image](https://github.com/user-attachments/assets/aa273c0c-beba-4093-b803-db29e1fd1e44)
+)  
+
+2. **Globo Interativo:**  
+   ![Globo Interativo](link/da/imagem/globo_interativo.png)  
+
+3. **Mascote Capy em ação:**  
+   ![Mascote Capy](link/da/imagem/mascote_capy.png)  
+
+4. **Quiz:**  
+   ![Quiz de Sustentabilidade](link/da/imagem/quiz.png)  
+
