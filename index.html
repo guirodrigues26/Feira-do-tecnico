@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globo 3D</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="files/favicon.ico">
+    <link href="https://fonts.googleapis.com
+    /css2?family=Playwrite+DE+Grund:
+    wght@100..400&family=Ubuntu:ital
+    ,wght@0,300;0,400;0,500;0,700;1
+    ,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+
+            <div class="flex">
+            
+                <img src="files/logo.png" alt="logo planta" 
+                class="logo-sidebar">
+                
+                <nav>
+                    <ul>
+                  <h3><li><a href="tecnicofeirahome.html">Home</a></li></h3>
+                  <h3><li><a href="quiz.html">Quiz</a></li></h3>
+                  <h3><li><a href="suporte.html">Capy</a></li></h3>
+                    </ul>
+                </nav>
+        
+            
+            </div>
+        
+        </div>
+    </header>
+    <canvas id="globo"></canvas>
+    <div class="continent-container">
+        <h2>Continentes</h2>
+        <ul>
+          
+              <li onclick="toggleDescricao('africa')" style="color: rgb(246, 255, 0);">África</li>
+              <div id="africa" class="description">
+                A África é o segundo maior continente em área e população. <br>
+                - <strong>África do Sul</strong>: Ainda depende do carvão, mas investe em energia solar e eólica. <br>
+                - <strong>Nigéria</strong>: Principal exportador de petróleo, lida com poluição e busca expandir energia solar. <br>
+                - <strong>Quênia</strong>: Líder em energias renováveis, com foco em geotérmica e hidrelétrica. <br>
+                - <strong>Etiópia</strong>: Investimentos em hidrelétricas e reflorestamento para combater a desertificação. <br>
+                - <strong>Marrocos</strong>: Pioneiro em energia solar e eólica, enfrentando escassez de água. <br>
+                - <strong>Egito</strong>: Expande energia solar e enfrenta desertificação e poluição. <br>
+                - <strong>Gana</strong>: Desafios de desmatamento, mas investe em energias renováveis. <br>
+                - <strong>Ruanda</strong>: Políticas ambientais progressistas, banimento de plásticos e foco em ecoturismo. <br>
+                Os principais desafios incluem mudanças climáticas, desmatamento e falta de energia confiável.
+              </div>
+            
+        
+            <li onclick="toggleDescricao('america')" style="color: rgb(246, 255, 0);">América</li>
+            <div id="america" class="description">
+              A sustentabilidade no continente americano varia entre os países: <br>
+              - <strong>Brasil</strong>: Enfrenta desmatamento na Amazônia, mas tem uma matriz energética renovável. <br>
+              - <strong>EUA</strong>: Um dos maiores emissores de CO2, mas investindo em energia limpa. <br>
+              - <strong>Canadá</strong>: Líder em energia renovável, com desafios na extração de petróleo. <br>
+              - <strong>México</strong>: Investimentos em energias limpas, mas enfrenta desmatamento. <br>
+              - <strong>Argentina</strong>: Crescimento das energias renováveis, mas agronegócio impacta o meio ambiente. <br>
+              - <strong>Chile</strong>: Foco em energia solar e planos de descarbonização. <br>
+              - <strong>Colômbia</strong>: Rica em biodiversidade, com iniciativas de energia limpa e conservação. <br>
+              - <strong>Peru</strong>: Preserva florestas, mas enfrenta desmatamento e mineração ilegal. <br>
+              O continente está em transição para uma economia mais sustentável.
+            </div>
+        
+            <li onclick="toggleDescricao('asia')" style="color: rgb(246, 255, 0);">Ásia</li>
+            <div id="asia" class="description">
+              A Ásia apresenta desafios significativos e progressos notáveis: <br>
+              - <strong>Chile</strong>: Maior emissor de CO2, mas líder em energia solar e eólica. <br>
+              - <strong>Índia</strong>: Expande energias renováveis, mas depende do carvão. <br>
+              - <strong>Japão</strong>: Focado em tecnologia verde e eficiência energética. <br>
+              - <strong>Coreia do Sul</strong>: Investe em energias limpas e busca descarbonizar até 2050. <br>
+              - <strong>Indonésia</strong>: Enfrenta desmatamento crítico, mas possui potencial para renováveis. <br>
+              - <strong>Vietnã</strong>: Cresce em energia solar e eólica, mas enfrenta poluição. <br>
+              Os principais desafios incluem mudanças climáticas e transição energética.
+            </div>
+        
+            <li onclick="toggleDescricao('europa')" style="color: rgb(246, 255, 0);">Europa</li>
+            <div id="europa" class="description">
+              A Europa está liderando iniciativas sustentáveis: <br>
+              - <strong>Alemanha</strong>: Líder em energias renováveis com a política "Energiewende". <br>
+              - <strong>Dinamarca</strong>: Alta produção de energia eólica, com metas de zerar fósseis até 2050. <br>
+              - <strong>Holanda</strong>: Uso massivo de bicicletas e eletrificação de veículos. <br>
+              - <strong>Noruega</strong>: Pioneira em veículos elétricos e infraestrutura de carregamento. <br>
+              - <strong>Suécia</strong>: Avançada em reciclagem e gestão de resíduos. <br>
+              - <strong>Finlândia</strong> Focada em economia circular e uso eficiente de recursos. <br>
+              - <strong>França</strong>: Promove agroecologia e redução de pesticidas. <br>
+              - <strong>Espanha</strong>: Técnicas agrícolas para economizar água e proteger a biodiversidade. <br>
+              - <strong>Portugal</strong>: Reflorestamento e combate à desertificação. <br>
+              A Europa promove reciclagem, renováveis e proteção ambiental.
+            </div>
+        
+            <li onclick="toggleDescricao('oceania')" style="color: rgb(246, 255, 0);">Oceania</li>
+            <div id="oceania" class="description">
+              A Oceania enfrenta sérios problemas ambientais: <br>
+              - <strong>Austrália</strong>: Investindo em energia solar e eólica, além de conservação marinha. <br>
+              - <strong>Nova Zelândia</strong>: Foco em energia 100% renovável até 2035. <br>
+              - <strong>Ilhas do Pacífico</strong>: Agricultura sustentável e soluções hídricas locais. <br>
+              A Oceania está adotando práticas para mitigar os impactos ambientais.
+            </div>
+          </ul>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+   
+    
+    
+    
+</body>
+</html>
