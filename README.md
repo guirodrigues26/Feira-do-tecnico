@@ -7,7 +7,7 @@ Ciências da Natureza, Ciências Humanas.
 |         Nome         |      Github       |        Contato        |
 |----------------------|-------------------|-----------------------|                 
 | Caio Vieira          | [07-mvieira](https://github.com/07-mvieira)      |                       |
-| Clara D´avila        | [Clara Elisa](https://github.com/Claraelisa05)     |                       |
+| Clara D´avila        | [Clara Elisa](https://github.com/Claraelisa05)     |                       |claraelisa.davila@gmail.com
 | Guilherme Rodrigues  | [guirodrigues26](https://github.com/guirodrigues26)  |                       |
 | Hannah Degrazia      | [HannahAryela](https://github.com/HannahAryela)    |                       |
 | Luciana Flores       | [LuciFlores208](https://github.com/LuciFlores208)   |ecoviva.world@gmail.com|                         |          
